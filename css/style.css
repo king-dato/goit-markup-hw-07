@@ -485,7 +485,36 @@ address {
 .sociallink-footer:focus {
   background-color: #31d0aa;
 }
+/* MOdal footer */
 
+.formparagraph {
+  margin-bottom: 16px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 15;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+.form {
+  gap: 24px;
+}
+.inputmodal {
+  width: 264px;
+  height: 40px;
+  border: 1px solid #ffffff;
+  background-color: transparent;
+  font-size: 12px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  padding-left: 16px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  color: #ffffff;
+}
+::placeholder {
+  color: #ffffff;
+  
+}
 /* this content is portfolio */
 
 /* portfolio header */
