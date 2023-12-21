@@ -488,15 +488,15 @@ address {
 /* MOdal footer */
 
 .paragraph-form {
-  padding-top: 50px;
+  padding-top: 72px;
   text-align: center;
   font-style: normal;
-  margin-bottom: 16px;
+  margin-bottom: 34px;
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 0.32px;
-  color: black;
+  color: var(--navyblue-color), #2e2f42;
 }
 .form {
   gap: 24px;
