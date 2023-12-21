@@ -488,11 +488,13 @@ address {
 /* MOdal footer */
 
 .formparagraph {
+  text-align: center;
+  font-style: normal;
   margin-bottom: 16px;
   font-weight: 500;
   font-size: 16px;
-  line-height: 15;
-  letter-spacing: 0.02em;
+  line-height: 24px;
+  letter-spacing: 0.32px;
   color: #ffffff;
 }
 .form {
@@ -513,7 +515,6 @@ address {
 }
 ::placeholder {
   color: #ffffff;
-  
 }
 /* this content is portfolio */
 
@@ -688,7 +689,8 @@ img {
   top: 50%;
   left: 50%;
   width: 408px;
-  min-height: 584px;
+  height: 584px;
+  /* min-height: 584px; */
   background-color: #fcfcfc;
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12),
     0px 2px 1px rgba(0, 0, 0, 0.2);
