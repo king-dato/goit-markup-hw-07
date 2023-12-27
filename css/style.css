@@ -499,7 +499,43 @@ address {
   color: var(--navyblue-color), #2e2f42;
 }
 .form {
-  gap: 24px;
+  display: flex;
+}
+.label {
+  position: relative;
+  margin-bottom: 30px;
+  font-size: 12px;
+  line-height: 1.166;
+  letter-spacing: 0.01em;
+  color: var(--lightslate, #8e8f99);
+}
+.form {
+  width: 360px;
+  height: 58px;
+  position: relative;
+  margin-bottom: 30px;
+  font-size: 12px;
+  line-height: 1.166;
+  letter-spacing: 0.01em;
+  color: var(--lightslate, #8e8f99);
+  padding-left: 24px;
+}
+.labeltext {
+  position: absolute;
+  top: -20px;
+}
+.forminput {
+  display: block;
+  width: 360px;
+  height: 40px;
+  flex-shrink: 0;
+  border-radius: 4px;
+  border: 1px solid var(--iris-color, #4d5ae5);
+}
+.form-icon {
+  width: 18px;
+  height: 18px;
+  flex-shrink: 0;
 }
 .inputmodal {
   width: 264px;
