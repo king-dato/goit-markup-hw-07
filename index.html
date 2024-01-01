@@ -511,7 +511,7 @@
         <form class="form">
           <!-- User-name -->
           <div class="formdiv">
-            <label class="label" for="username">
+            <label class="label" for="user-name">
               <span class="labeltext">Name </span>
             </label>
             <div class="divinput">
@@ -529,9 +529,99 @@
               </svg>
             </div>
           </div>
+
+          <!-- Phone -->
+          <div class="formdiv">
+            <label class="label" for="user-name">Phone</label>
+            <div class="divinput">
+              <input
+                class="input"
+                id="user-phone"
+                type="tel"
+                id="user-phone"
+                name="user-phone"
+                required
+              />
+              <svg
+                class="form-icon"
+                xmlns="http://www.w3.org/2000/svg"
+                width="18"
+                height="24"
+                fill="var(--slate)"
+              >
+                <use href="./images/icons.svg#phone-icon"></use>
+              </svg>
+            </div>
+          </div>
+
+          <!-- Email -->
+          <div class="formdiv">
+            <label class="label" for="user-email">Email</label>
+            <div class="divinput">
+              <input
+                class="input"
+                type="email"
+                id="user-email"
+                name="user-email"
+                required
+              />
+              <svg
+                class="modal-form-input-icon"
+                xmlns="http://www.w3.org/2000/svg"
+                width="18"
+                height="24"
+                fill="var(--slate)"
+              >
+                <use href="./images/icons.svg#email-icon"></use>
+              </svg>
+            </div>
+          </div>
+
+          <!-- Comment -->
+          <div class="modal-form-comment">
+            <label class="modal-form-label" for="user-comment">Comment</label>
+            <textarea
+              class="modal-form-textarea"
+              id="user-comment"
+              name="user-comment"
+              placeholder="Text input"
+            ></textarea>
+          </div>
+
+          <!-- Checkbox -->
+          <div class="modal-acceptance">
+            <input
+              class="modal-checkbox visually-hidden"
+              type="checkbox"
+              name="user-privacy"
+              id="user-privacy"
+              value="true"
+              required
+            />
+            <label class="modal-checkbox-label" for="user-privacy">
+              <span class="privacy-check"
+                ><svg
+                  class="modal-checkbox-icon"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="10"
+                  height="8"
+                >
+                  <use
+                    href="./images/icons.svg#checkbox-icon"
+                  ></use></svg></span
+              >I accept the terms and conditions of the
+              <a class="privacy-check-policy" rel="stylesheet" href="#"
+                >Privacy Policy</a
+              >
+            </label>
+          </div>
+
+          <!-- Submit Button -->
+          <button type="submit" class="modal-form-button">Send</button>
         </form>
       </div>
     </div>
+
     <script src="./Js/modal.js"></script>
   </body>
 </html>
