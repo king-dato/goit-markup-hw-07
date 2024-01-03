@@ -628,6 +628,12 @@ address {
 .privacy-check-policy {
   color: #4d5ae5;
 }
+.form-button-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
 .form-button {
   display: block;
   min-width: 169px;
