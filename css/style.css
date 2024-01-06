@@ -668,19 +668,19 @@ address {
   /* margin-bottom: 16px; */
 }
 .footer-form-input {
-  color: var(--white);
+  border: (1px solid #ffffff);
   width: 264px;
   height: 40px;
-  padding: 8px 16px;
-  display: flex;
-  margin-top: 16px;
-  font-size: 14px;
-  flex-shrink: 0;
-  background: var(--navyblue, #2e2f42);
-  border-radius: 4px;
-  border: 1px solid var(--white, #fff);
+  background-color: transparent;
+  font-size: 12px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  padding-left: 16px;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  color: #ffffff;
 }
+
 .footer-form-button {
   height: 40px;
   display: inline-flex;
@@ -701,9 +701,17 @@ address {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.footer-form-svgsubscribe{
+.footer-form-svgsubscribe {
   width: 24px;
   height: 24px;
+}
+.subscribeparagraph {
+  margin-bottom: 16px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #ffffff;
 }
 /* this content is portfolio */
 
