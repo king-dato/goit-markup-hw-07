@@ -680,10 +680,15 @@ address {
   border-radius: 4px;
   color: #ffffff;
 }
+.subscribeform {
+  display: flex;
+  gap: 24px;
+}
 
-.footer-form-button {
+.formbuttonfooter {
+  min-width: 165px;
   height: 40px;
-  display: inline-flex;
+  display: flex;
   padding: 8px 24px;
   justify-content: center;
   align-items: center;
@@ -701,9 +706,8 @@ address {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.footer-form-svgsubscribe {
-  width: 24px;
-  height: 24px;
+.svgsubscribe {
+  margin-left: 16px;
 }
 .subscribeparagraph {
   margin-bottom: 16px;
