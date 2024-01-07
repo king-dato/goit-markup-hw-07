@@ -550,7 +550,7 @@ address {
   position: absolute;
   top: -20px;
 }
-.forminput {
+.form_input {
   display: block;
   width: 360px;
   height: 40px;
