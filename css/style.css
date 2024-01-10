@@ -662,13 +662,18 @@ address {
 .privacy-check-policy {
   color: #4d5ae5;
 }
-.form-button-div {
+/* .form-button-div {
   display: flex;
   align-items: center;
   justify-content: center;
   width: 100%;
-}
+} */
 .formbutton {
+  display: inline-flex;
+  padding: 16px 32px;
+  align-items: flex-start;
+  gap: 10px;
+
   display: block;
   min-width: 169px;
   height: 56px;
