@@ -604,6 +604,7 @@ address {
 }
 .checkbox {
   margin-bottom: 24px;
+  display: flex;
 }
 .checkbox-label {
   display: block;
