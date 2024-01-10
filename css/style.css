@@ -604,8 +604,9 @@ address {
 }
 .checkbox {
   margin-bottom: 24px;
-  display: flex;
+  display: flex; 
 }
+
 .checkbox-label {
   display: block;
   font-size: 12px;
@@ -649,7 +650,7 @@ address {
   margin-right: 8px;
 }
 
-.modal-checkbox:checked + .modal-checkbox-label .privacy-check {
+.modal-checkbox:checked {
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
