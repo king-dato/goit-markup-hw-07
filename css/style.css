@@ -499,7 +499,7 @@ address {
   background-size: cover;
   background-color: #2e2f42;
 
-   @media screen and (min-width: 768px) {
+  @media screen and (min-width: 768px) {
     background-image: unset;
   }
 
@@ -727,7 +727,7 @@ address {
   }
 
   @media screen and (min-width: 1158px) {
-    display: fex;
+    display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
     align-items: center;
