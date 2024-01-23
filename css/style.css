@@ -170,7 +170,8 @@ address {
   }
 }
 
-.header-address-item{  font-size: 16px;
+.header-address-item {
+  font-size: 16px;
   font-style: normal;
   font-weight: 500;
   line-height: 1.5;
@@ -178,6 +179,34 @@ address {
   color: var(--slate, #434455);
 }
 /* mobile approach */
+
+.index-header,
+.addr,
+.menu,
+.addr-list {
+  @media screen and (min-width: 320px) and (max-width: 399px) {
+    display: none;
+  }
+  @media screen and (min-width: 400px) and (max-width: 467px) {
+    display: none;
+  }
+}
+.menu-toggle {
+  @media screen and (min-width: 320px) and (max-width: 399px) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    padding: 0;
+    background-color: transparent;
+    cursor: pointer;
+    border: none;
+    border-radius: 50%;
+    outline: none;
+    color: #2e2f42;
+  }
+}
+
 .menu-toggle {
   display: flex;
   align-items: center;
@@ -199,7 +228,6 @@ address {
   @media screen and (min-width: 1158px) {
     display: none;
   }
-
 }
 
 /* hamburger mobile  */
@@ -235,8 +263,8 @@ menu-toggle {
   width: 30px;
   height: 30px;
 
-  background-color:  #e7e9fc;
-  color:  #2e2f42;
+  background-color: #e7e9fc;
+  color: #2e2f42;
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 15px;
   cursor: pointer;
@@ -252,7 +280,7 @@ menu-toggle {
 .hamburger-close-button:hover,
 .hamburger-close-button:focus {
   background-color: #404bbf;
-  color:  #ffffff;
+  color: #ffffff;
 }
 
 .hamburger-menu-list {
@@ -269,8 +297,8 @@ menu-toggle {
   letter-spacing: 0.72px;
 }
 
-.hamburger-menu-link  {
-  color:  #2e2f42;
+.hamburger-menu-link {
+  color: #2e2f42;
   font-size: 36px;
   font-weight: 700;
   line-height: 1.5;
@@ -291,7 +319,7 @@ menu-toggle {
 
 .hamburger-address {
   margin-top: -100px;
-  color:  #434455;
+  color: #434455;
   font-size: 20px;
   font-style: normal;
   font-weight: 500;
@@ -316,7 +344,7 @@ menu-toggle {
 }
 
 .highlight {
-  color:  #4d5ae5;
+  color: #4d5ae5;
   font-size: 38px;
   font-weight: 700;
   line-height: 40px;
@@ -326,7 +354,7 @@ menu-toggle {
 .hamburger-social-list {
   display: flex;
   justify-content: start;
-  gap: 65px;
+  gap: 30px;
 
   @media screen and (min-width: 320px) and (max-width: 399px) {
     gap: 30px;
@@ -337,20 +365,20 @@ menu-toggle {
 }
 
 .hamburger-social-link {
-  background-color:  #4d5ae5;
+  background-color: #4d5ae5;
   width: 40px;
   height: 40px;
   border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
-  color: var(--cloud, #f4f4fd);
+  color: #f4f4fd;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .hamburger-social-link:hover,
 .hamburger-social-link:focus {
-  background-color:  #404bbf;
+  background-color: #404bbf;
 }
 
 .hamburger-social-icon {
