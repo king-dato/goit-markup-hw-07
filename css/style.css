@@ -1399,10 +1399,22 @@ menu-toggle {
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
-}
 
+
+}
+.projects-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
 .fil {
   width: calc((100% - 48px) / 3);
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
 
   @media screen and (min-width: 768px) {
     width: calc((100% - 24px) / 2);
@@ -1447,9 +1459,11 @@ menu-toggle {
 
 .list-portfolio {
   display: flex;
-  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
   gap: 24px;
   margin-bottom: 72px;
+
 
   @media screen and (min-width: 768px) {
     flex-wrap: nowrap;
