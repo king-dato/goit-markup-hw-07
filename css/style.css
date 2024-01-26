@@ -1605,3 +1605,19 @@ img {
   visibility: hidden;
   pointer-events: none;
 }
+
+
+/* MOBILE APPROACH 468PX */
+
+.hamburger-social-list {
+  display: flex;
+  justify-content: start;
+  gap: 30px;
+
+  @media screen and (min-width: 320px) and (max-width: 399px) {
+    gap: 30px;
+  }
+  @media screen and (min-width: 400px) and (max-width: 467px) {
+    gap: 50px;
+  }
+}
